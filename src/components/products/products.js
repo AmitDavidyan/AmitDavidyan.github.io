@@ -1,18 +1,19 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import "../closet/closet.css";
+import "./products.css";
+// import photos from "./data2.json";
 
-function Products() {
-  const [closet, setCloset] = useState([]);
+function Products(menuItem) {
+  // const [products, setProducts] = useState([]);
 
-  useEffect(() => {
-    fetch("http://localhost:8000/closet")
-      .then((ress) => ress.json())
-      .then((th) => {
-        setCloset(th);
-      });
-  });
-  return closet.map((props, i) => {
+  // useEffect(() => {
+  //   fetch("http://localhost:8000/products")
+  //     .then((ress) => ress.json())
+  //     .then((th) => {
+  //       setProducts(th);
+  //     });
+  // });
+  return menuItem.map((props, i) => {
     return (
       <div className="main" key={i}>
         <div>
@@ -27,4 +28,5 @@ function Products() {
     );
   });
 }
+
 export default Products;
