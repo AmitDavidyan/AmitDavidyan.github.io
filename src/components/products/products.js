@@ -4,7 +4,7 @@ import "./products.css";
 import "./Button.css";
 // import photos from "./data2.json";
 
-function Products({ menuItem, button, filter }) {
+function Products({ menuItem, button, filter, products, onAdd }) {
   // const [products, setProducts] = useState([]);
 
   // useEffect(() => {
@@ -33,7 +33,7 @@ function Products({ menuItem, button, filter }) {
               <h3 className="title">{props.title}</h3>
               <img src={props.image} width={210} height={150}></img>
               <h4 className="price">price : {props.price}$</h4>
-              <div className="button">
+              <div className="button" onClick={() => onAdd(props)}>
                 <button>Add to cart</button>
               </div>
             </div>
