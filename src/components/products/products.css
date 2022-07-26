@@ -1,8 +1,9 @@
 .main {
     display: inline-flex;
-    padding: 7%;
+    padding: 5% 7% ;
     border-style:ridge;
     border-radius: 5%;
+    
 }
 .title {
     display: flex;
@@ -15,4 +16,7 @@
 .button {
     display: flex;
     justify-content: center;
+    color: #B8860B;
+    background-color:white ;
+    border-color: #B8860B;
 }

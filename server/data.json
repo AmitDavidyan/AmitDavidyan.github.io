@@ -1,0 +1,192 @@
+[
+    {
+     "id" :1 ,
+     "title":"Alpha",
+     "price":300,
+     "image":"1.jpg",
+     "category":"phone"
+    },
+    {
+    "id" :2 ,
+    "title":"Gold",
+    "price":250,
+    "image":"2.jpg",
+    "category":"phone"
+    },
+    {
+    "id" :3 ,
+    "title":"Silver",
+    "price":350,
+    "image":"3.jpg",
+    "category":"phone"
+    },
+    {
+    "id" :4 ,
+    "title":"Diamond",
+    "price":600,
+    "image":"4.jpg",
+    "category":"phone"
+    },
+    {
+    "id" :5 ,
+    "title":"Sisko",
+    "price":450,
+    "image":"5.jpg",
+    "category":"phone"
+    },
+    {
+    "id" :6 ,
+    "title":"Chain",
+    "price":470,
+    "image":"6.jpg",
+    "category":"phone"
+    },
+    {
+    "id" :7 ,
+    "title":"Sky",
+    "price":390,
+    "image":"7.jpg",
+    "category":"phone"
+    },
+    {
+    "id" :8 ,
+    "title":"Kawai",
+    "price":450,
+    "image":"8.jpg",
+    "category":"phone"
+    },
+    {
+    "id" :9 ,
+    "title":"Perry",
+    "price":290,
+    "image":"9.jpg",
+    "category":"phone"
+    },
+    {
+        "id" :10 ,
+        "title":"Rokky",
+        "price":460,
+        "image":"https://th.bing.com/th/id/OIP.sN04m8AQ-bUkwQ9Ol3vCggHaFs?pid=ImgDet&rs=1",
+        "category":"laptop"
+       },
+       {
+       "id" :11 ,
+       "title":"Steph",
+       "price":850,
+       "image":"https://d27nqrvkk22y65.cloudfront.net/product_image/image/422940/big_633df20b41.jpg",
+       "category":"laptop"
+       },
+       {
+       "id" :12 ,
+       "title":"James",
+       "price":350,
+       "image":"https://th.bing.com/th/id/OIP.Kxj9LtQS6G-dSCfwh3HFxgHaEs?pid=ImgDet&rs=1",
+       "category":"laptop"
+       },
+       {
+       "id" :13 ,
+       "title":"Pash",
+       "price":500,
+       "image":"https://th.bing.com/th/id/OIP.c0t86mRMqzRgPRDyIUuwYQAAAA?pid=ImgDet&rs=1",
+       "category":"laptop"
+       },
+       {
+       "id" :14 ,
+       "title":"Orlando",
+       "price":620,
+       "image":"https://th.bing.com/th/id/OIP.Hh9BIlN4Qivy37uxDRKf4gHaE8?pid=ImgDet&rs=1",
+       "category":"laptop"
+       },
+       {
+       "id" :15 ,
+       "title":"Chiko",
+       "price":780,
+       "image":"https://th.bing.com/th/id/OIP.c32Dn85iwuWdFhdaxFl_uQHaE5?pid=ImgDet&w=609&h=403&rs=1",
+       "category":"laptop"
+       },
+       {
+       "id" :16 ,
+       "title":"Phonix",
+       "price":590,
+       "image":"https://th.bing.com/th/id/OIP.YNzqCliR0TdQRiIlN1KIRgHaFJ?pid=ImgDet&rs=1",
+       "category":"laptop"
+       },
+       {
+       "id" :17 ,
+       "title":"Luka",
+       "price":630,
+       "image":"https://th.bing.com/th/id/OIP.ml3Gyg6YD6QxYF5O3l5xHAHaHa?pid=ImgDet&w=1000&h=1000&rs=1",
+       "category":"laptop"
+       },
+       {
+       "id" :18 ,
+       "title":"Fred",
+       "price":780,
+       "image":"https://cdn.mos.cms.futurecdn.net/GWSyu7u2Bw7hwg2YvwA9RM-1200-80.jpg",
+       "category":"laptop"
+       },
+       {
+        "id" :19 ,
+        "title":"MAG",
+        "price":460,
+        "image":"19.webp",
+        "category":"TV"
+       },
+       {
+       "id" :20 ,
+       "title":"SAMSUNG 42'",
+       "price":850,
+       "image":"20.webp",
+       "category":"TV"
+       },
+       {
+       "id" :21 ,
+       "title":"LG Smart",
+       "price":350,
+       "image":"21.webp",
+       "category":"TV"
+       },
+       {
+       "id" :22 ,
+       "title":"LG QLED    ",
+       "price":500,
+       "image":"22.webp",
+       "category":"TV"
+       },
+       {
+       "id" :23 ,
+       "title":"SAMSUNG 50'",
+       "price":620,
+       "image":"23.webp",
+       "category":"TV"
+       },
+       {
+       "id" :24 ,
+       "title":"LENOVO 70'",
+       "price":780,
+       "image":"24.webp",
+       "category":"TV"
+       },
+       {
+       "id" :25 ,
+       "title":"APPLE 75'",
+       "price":790,
+       "image":"25.webp",
+       "category":"TV"
+       },
+       {
+       "id" :26 ,
+       "title":"QLED",
+       "price":630,
+       "image":"26.webp",
+       "category":"TV"
+       },
+       {
+       "id" :27 ,
+       "title":"SAMSUNG 80'",
+       "price":990,
+       "image":"27.webp",
+       "category":"TV"
+       }
+
+]

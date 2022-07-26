@@ -1,65 +1,65 @@
 [
     {
      "id" :1 ,
-     "title":"Alpha",
-     "price":300,
-     "image":"1.jpg",
+     "title":"iphone 13 Pro-Max",
+     "price":600,
+     "image":"https://hotstore.hotmobile.co.il/media/catalog/product/cache/9ef013577458e7d78e099a289341f295/b/l/blue_8_1.png",
      "category":"phone"
     },
     {
     "id" :2 ,
-    "title":"Gold",
-    "price":250,
-    "image":"2.jpg",
+    "title":"iphone 12 Pro-Max",
+    "price":550,
+    "image":"https://hotstore.hotmobile.co.il/media/catalog/product/cache/9ef013577458e7d78e099a289341f295/g/r/graphite-pro_8.png",
     "category":"phone"
     },
     {
     "id" :3 ,
-    "title":"Silver",
+    "title":"iphone 10",
     "price":350,
-    "image":"3.jpg",
+    "image":"https://hotstore.hotmobile.co.il/media/catalog/product/cache/9ef013577458e7d78e099a289341f295/b/l/blue_3.png",
     "category":"phone"
     },
     {
     "id" :4 ,
-    "title":"Diamond",
+    "title":"Samsung galaxy S22",
     "price":600,
-    "image":"4.jpg",
+    "image":"https://hotstore.hotmobile.co.il/media/catalog/product/cache/9ef013577458e7d78e099a289341f295/h/6/h69115529_1000x1000_13.2_new2_9_10.4.22.png",
     "category":"phone"
     },
     {
     "id" :5 ,
-    "title":"Sisko",
+    "title":"Samsung S21 Ultra",
     "price":450,
-    "image":"5.jpg",
+    "image":"https://hotstore.hotmobile.co.il/media/catalog/product/cache/9ef013577458e7d78e099a289341f295/h/6/h69115529_1000x1000_13.2_new2_10_1.png",
     "category":"phone"
     },
     {
     "id" :6 ,
-    "title":"Chain",
+    "title":"Samsung galaxy A51 ",
     "price":470,
-    "image":"6.jpg",
+    "image":"https://hotstore.hotmobile.co.il/media/catalog/product/cache/9ef013577458e7d78e099a289341f295/h/6/h69115529_1000x1000_v3_3_sm-g990_s21fe_front_za.png",
     "category":"phone"
     },
     {
     "id" :7 ,
-    "title":"Sky",
+    "title":"Samsung galaxy A33",
     "price":390,
-    "image":"7.jpg",
+    "image":"https://hotstore.hotmobile.co.il/media/catalog/product/cache/9ef013577458e7d78e099a289341f295/h/6/h69116190_pics_1000x100021sm-a336_galaxy_a33_5g_awesome_black_front_1.png",
     "category":"phone"
     },
     {
     "id" :8 ,
-    "title":"Kawai",
+    "title":"Samsung galaxy Flip",
     "price":450,
-    "image":"8.jpg",
+    "image":"https://hotstore.hotmobile.co.il/media/catalog/product/cache/9ef013577458e7d78e099a289341f295/h/6/h69115326_1000x1000_5_2_1.png",
     "category":"phone"
     },
     {
     "id" :9 ,
-    "title":"Perry",
+    "title":"Xiaomi 11T",
     "price":290,
-    "image":"9.jpg",
+    "image":"https://hotstore.hotmobile.co.il/media/catalog/product/cache/a73c0d5d6c75fbb1966fe13af695aeb7/h/6/h69115529_1000x1xiaomi_mi_11t_pro-white1_1.png",
     "category":"phone"
     },
     {

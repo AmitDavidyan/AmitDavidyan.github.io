@@ -1,0 +1,39 @@
+.Welcome {
+color:#B8860B;
+         }
+.menu1 {
+    color:black;
+        }
+.li1{
+    color:coral
+}
+.pic1{
+    display: block;
+   
+}
+.button1{
+    color: #B8860B;
+    background-color:white ;
+    border-color: #B8860B;
+    display: block;
+    margin-left: 60ch;
+    font-size: 1em;
+    width: 15ch;
+}
+
+
+
+h1 {
+    display: block;
+    font-size: 2.5em;
+}
+h2 {
+    display: block;
+    font-size: 2em;
+    text-decoration: underline;
+}
+h4 {
+    display: block;
+    font-size: 1.2em;
+    text-decoration: underline;
+}

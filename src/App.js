@@ -1,14 +1,13 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
 // import Main from "./components/main/Main";
-// import Welcome from "./components/homeP/Welcome";
-import { Route, Routes, Link, Router } from "react-router-dom";
+import Welcome from "./components/homeP/Welcome";
 // import Products from "./components/products";
-import Header from "./components/Header/header";
+import Header from "./components/Header/navbar";
 import Products from "./components/products/products";
-import Button from "./components/products/Button";
+// import Button from "./components/products/Button";
 import items from "./components/products/data2.json";
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 const allCategories = ["All", ...new Set(items.map((item) => item.category))];
 
 function App() {
@@ -27,11 +26,27 @@ function App() {
   };
 
   return (
-    <div>
+    <Router>
       <Header />
-      <Button button={buttons} filter={filter} />
-      <Products menuItem={menuItem} />
-    </div>
+      <Routes>
+        <Route path="/" element={<Welcome />} />
+        <Route
+          path="/products"
+          element={
+            <Products menuItem={menuItem} button={buttons} filter={filter} />
+          }
+        >
+          {/* <Route element={<Button button={buttons} filter={filter} />} /> */}
+          {/* <Route path=":postSlug" element={<Post />} /> */}
+        </Route>
+      </Routes>
+    </Router>
+
+    // <div>
+    //   <Header />
+    //   <Welcome />
+    //   <Products menuItem={menuItem} button={buttons} filter={filter} />
+    // </div>
   );
 }
 
