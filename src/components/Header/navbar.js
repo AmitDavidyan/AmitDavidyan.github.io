@@ -17,15 +17,15 @@ function Header() {
         <section className="header-top__navbar">
           <section className="header-top__navigation">
             <section className="navbar">
-              <a href="/" className="navbar-item">
+              <Link to="/" className="navbar-item">
                 Home
-              </a>
-              <a href="/products" className="navbar-item">
+              </Link>
+              <Link to="/products" className="navbar-item">
                 Products
-              </a>
-              <a href="/" className="navbar-item">
+              </Link>
+              <Link to="/Basket" className="navbar-item">
                 Cart
-              </a>
+              </Link>
             </section>
           </section>
           <hr className="header-top__seperator" />

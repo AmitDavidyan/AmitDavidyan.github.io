@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import "./products.css";
 import "./Button.css";
+
 // import photos from "./data2.json";
 
 function Products({ menuItem, button, filter, products, onAdd }) {

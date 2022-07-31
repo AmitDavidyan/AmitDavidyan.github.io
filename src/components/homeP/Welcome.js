@@ -8,7 +8,7 @@ function Welcome() {
         Welcome to the largest and cheapest website in Israel!
       </h1>
       <h2 className="menu1">Among our products you will find: </h2>
-      <div className="li1">
+      <div className="li_1">
         <h4>
           <li>Phone</li>
           <li>Laptop</li>

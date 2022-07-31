@@ -40,3 +40,21 @@ app.get("/products", (req, res) => {
 // });
 
 app.listen(8000);
+
+// const fs = require("fs");
+// const express = require("express");
+// const cors = require("cors");
+
+// const app = express();
+// app.use(cors());
+
+// app.get("/products", (req, res) => {
+//   fs.readFile("./data2.json", "utf-8", (err, data) => {
+//     if (data) {
+//       const products = JSON.parse(data);
+//       res.send(products);
+//     }
+//   });
+// });
+
+// app.listen(8000);

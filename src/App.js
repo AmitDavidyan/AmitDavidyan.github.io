@@ -58,7 +58,6 @@ function App() {
   return (
     <Router>
       <Header />
-      <Basket cartItems={cartItems} onAdd={onAdd} onRemove={onRemove}></Basket>
       <Routes>
         <Route path="/" element={<Welcome />} />
         <Route
@@ -72,26 +71,17 @@ function App() {
               onAdd={onAdd}
             />
           }
-        >
-          {/* <Route element={<Button button={buttons} filter={filter} />} /> */}
-          {/* <Route path=":postSlug" element={<Post />} /> */}
-        </Route>
+        />
+        {/* <Basket cartItems={cartItems} onAdd={onAdd} onRemove={onRemove}></Basket> */}
+        <Route
+          path="/Basket"
+          element={
+            <Basket cartItems={cartItems} onAdd={onAdd} onRemove={onRemove} />
+          }
+        ></Route>
       </Routes>
     </Router>
-
-    // <div>
-    //   <Header />
-    //   <Welcome />
-    //   <Products menuItem={menuItem} button={buttons} filter={filter} />
-    // </div>
   );
 }
 
 export default App;
-
-// <Router>
-//         <Routes>
-//           <Route path="" element={<Welcome />} />
-//           <Route path="/Categories" element={<Main />} />
-//         </Routes>
-//       </Router>
